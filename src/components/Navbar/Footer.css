@@ -1,0 +1,113 @@
+.footer {
+    width: 100%;
+    height: 45rem;
+    color: #ffffff;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 2em;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    font-weight: 1;
+    color: #adadad;
+}
+
+.footer input {
+    width: 24.1em;
+    height: 2.3em;
+    padding: 1em 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(250, 250, 250, 0.7);
+    border-radius: 3px;
+    background-color: rgba(54, 54, 54, 0.3);
+    color: #ffffff;
+}
+
+.footer input::placeholder {
+  color: #adadad;;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start; 
+  gap: 1rem;                
+  margin-top: 1.5rem;    
+}
+
+.footer-form input {
+  width: 24.1em;
+  height: 2.5em;
+  padding: 1em 0.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(250, 250, 250, 0.7);
+  border-radius: 6px;
+  background-color: rgba(54, 54, 54, 0.3);
+  color: #ffffff;
+}
+
+.footer-form input::placeholder {
+  color: #adadad;
+}
+
+.footer-form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  height: 2.5em;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.footer-form button:hover {
+  background: #f0f0f0;
+}
+
+
+
+.hl-footer {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hl-footer-img {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 102.5%;
+    min-width: 102.5%;
+    height: auto;
+    margin-bottom: -.4%;
+    opacity: 90%;
+}
