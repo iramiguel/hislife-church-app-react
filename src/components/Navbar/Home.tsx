@@ -126,7 +126,6 @@ const Home: React.FC<HomeProps> = ({ query }) => {
                   Get Connected <MoveRight></MoveRight>
                 </a>
               </div>
-              <p>Search query: {query}</p>
             </div>
             {/* <div className="signup-window">
               <h3 className="current-count">Connect with us!</h3>
