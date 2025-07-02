@@ -31,7 +31,6 @@ const Home: React.FC<HomeProps> = ({ query }) => {
           backgroundImage: `url(${enlargeImage})`,
           transform: `translateY(${offsetY * 0.5}px)`,
         }}
-        
       ></div>
 
       <div className="content-section">
@@ -42,7 +41,10 @@ const Home: React.FC<HomeProps> = ({ query }) => {
         </div>
         <div className="headline-panel">
           <div className="container">
-            <img src={pastorImage} className="headline headline-pastor-image"></img>
+            <img
+              src={pastorImage}
+              className="headline headline-pastor-image"
+            ></img>
             <img src={greeting} className="headline headline-greet-image"></img>{" "}
           </div>
         </div>
@@ -126,6 +128,7 @@ const Home: React.FC<HomeProps> = ({ query }) => {
                   Get Connected <MoveRight></MoveRight>
                 </a>
               </div>
+              <p>Search query: {query}</p>
             </div>
             {/* <div className="signup-window">
               <h3 className="current-count">Connect with us!</h3>

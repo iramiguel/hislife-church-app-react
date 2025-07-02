@@ -19,7 +19,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 2rem;  /* optional: spacing between left & right blocks */
+  gap: 2rem;
+  /* optional: spacing between left & right blocks */
 
   box-sizing: border-box;
   position: relative;
@@ -47,13 +48,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   gap: 1rem;
 }
 
 .connect-container a {
-  color: inherit;        
-  text-decoration: none; 
+  color: inherit;
+  text-decoration: none;
   transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
 }
 
@@ -96,7 +97,8 @@
 }
 
 .footer-form input {
-  width: 100%;  /* responsive */
+  width: 100%;
+  /* responsive */
   max-width: 24em;
   height: 2.5em;
   padding: 1em 0.5em;
